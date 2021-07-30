@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Organization"
-permalink: /organization
+permalink: {{ site.baseurl }}/organization
 order : 1
 ---
 # Organization

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Complex Named Entity Recognition Across Languages"
-permalink: /
+permalink: {{ site.baseurl }}/
 order: 1
 ---
 
