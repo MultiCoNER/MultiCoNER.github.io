@@ -11,7 +11,7 @@ We will be using CodaLab for the competition. Details are coming soon.
 
 
 ## Data Format
-<a href="data/semeval_2021_task_11_trial_data" download>Click here to download a small set of trial data in English.</a>
+<a href="data/semeval_2021_task_11_trial_data.txt" download>Click here to download a small set of trial data in English.</a>
 
 We will follow the [CoNLL](https://universaldependencies.org/docs/format.html) format for the datasets. Here is an example data sample from the trial data.
 
