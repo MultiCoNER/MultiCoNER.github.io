@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Organization"
-permalink: {{ site.baseurl }}/organization
+permalink: /organization
 order : 1
 ---
 # Organization
@@ -22,3 +22,13 @@ Amazon
 ##### Sudipta Kar
 {: style="margin: 0" }
 Amazon
+
+##### Oleg Rokhlenko
+{: style="margin: 0" }
+Amazon
+
+
+### Communication
+* Subscribe to the [task mailing list](mailto:multiconer-semeval@googlegroups.com)
+
+* [Contact the organizers](mailto:multiconer-semeval-organizers@googlegroups.com)

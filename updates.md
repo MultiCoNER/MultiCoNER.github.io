@@ -6,5 +6,5 @@ order : 1
 ---
 
 
-#### July 31, 2021
-TBD
+#### August 23, 2021
+* Some [trial data](/competition) is available to get started.

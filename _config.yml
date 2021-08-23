@@ -47,7 +47,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # Google services
-google_analytics: G-V0B61C4NL8
+google_analytics: UA-204298917-1
 
 # SEO Related
 google_site_verification :
