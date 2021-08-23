@@ -162,7 +162,19 @@
 <p>We will be using CodaLab for the competition. Details are coming soon.</p>
 
 <h2 id="data-format">Data Format</h2>
-<p>We will follow the CoNLL format for the datasets.</p>
+<p><a href="data/semeval_2021_task_11_trial_data" download="">Click here to download a small set of trial data in English.</a></p>
+
+<p>We will follow the <a href="https://universaldependencies.org/docs/format.html">CoNLL</a> format for the datasets. Here is an example data sample from the trial data.</p>
+
+<p><img src="images/trial_data_sample.png" alt="." /></p>
+
+<p>In a data file, samples are separated by blank lines. Each data instance is tokenized and each line contains a single token with the associated label in the last (4th) column. Second and third columns (<code class="language-plaintext highlighter-rouge">_</code>) are ignored. Entities are labeled using the <a href="https://natural-language-understanding.fandom.com/wiki/Named_entity_recognition#BIO">BIO</a> scheme. In the given example, the input text is:</p>
+
+<blockquote>
+  <p>the original <strong>ferrari daytona</strong> replica driven by <strong>don johnson</strong> in <strong>miami vice</strong></p>
+</blockquote>
+
+<p>The bold tokens are part of named entities. <code class="language-plaintext highlighter-rouge">ferrari daytona</code> is a <code class="language-plaintext highlighter-rouge">PRODUCT</code> entity, <code class="language-plaintext highlighter-rouge">don johnson</code> is a <code class="language-plaintext highlighter-rouge">PERSON</code> entity, and <code class="language-plaintext highlighter-rouge">miami vice</code> is a <code class="language-plaintext highlighter-rouge">CREATIVE WORK</code> entity.</p>
 
 <!--## Official Competition Metric for the Task-->
 
