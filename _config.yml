@@ -58,9 +58,9 @@ naver_site_verification  :
 # include : ['.htaccess', '_pages', ]
 
 # Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: multiconer-semeval@googlegroups.com
+#footer-links:
+#  dribbble:
+#  email: multiconer-semeval@googlegroups.com
   # facebook: naaclsrw2019
   # github: naacl2019-srw
   # twitter: 2019Srw
