@@ -21,6 +21,14 @@ order : 1
     <td>800</td>
     <td> TBA </td>
   </tr>
+  
+  <tr>
+    <td>DE-German</td>
+    <td>15,300</td>
+    <td>800</td>
+    <td> TBA </td>
+  </tr>
+  
   <tr>
     <td>EN-English</td>
     <td>15,300</td>
