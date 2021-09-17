@@ -44,13 +44,14 @@ In this task, we focus on the following six entity types:
 
 
 ## Some Resources for the Beginners in NLP
-* [Wikipedia article on Named Entity Recognition](https://en.wikipedia.org/wiki/Named-entity_recognition)
-* [Lecture from Prof. Chris Manning on the Evaluation of Named Entity Recognition](https://www.youtube.com/watch?v=MY9fs1Plh_o)
-* [Named Entity Recognition (NER) using spaCy in Python](https://www.geeksforgeeks.org/python-named-entity-recognition-ner-using-spacy)
-* [Custom Named Entity Recognition (NER) model with spaCy 3 in Four Steps](https://medium.com/analytics-vidhya/custom-named-entity-recognition-ner-model-with-spacy-3-in-four-steps-7e903688d51)
-* [Named Entity Recognition using Transformers with Keras](https://keras.io/examples/nlp/ner_transformers)
-* [Named Entity Recognition Tagging with Pytorch](https://cs230.stanford.edu/blog/namedentity)
-* [How to Fine tune BERT for NER](https://skimai.com/how-to-fine-tune-bert-for-named-entity-recognition-ner/)
+* <a href="https://en.wikipedia.org/wiki/Named-entity_recognition" target="_blank">Wikipedia article on Named Entity Recognition</a>
+* <a href="https://www.youtube.com/watch?v=MY9fs1Plh_o" target="_blank">Lecture from Prof. Chris Manning on the Evaluation of Named Entity Recognition</a>
+* <a href="https://www.geeksforgeeks.org/python-named-entity-recognition-ner-using-spacy" target="_blank">Named Entity Recognition (NER) using spaCy in Python</a>
+* <a href="https://medium.com/analytics-vidhya/custom-named-entity-recognition-ner-model-with-spacy-3-in-four-steps-7e903688d51" target="_blank">Custom Named Entity Recognition (NER) model with spaCy 3 in Four Steps</a>
+* <a href="https://keras.io/examples/nlp/ner_transformers" target="_blank">Named Entity Recognition using Transformers with Keras</a>
+* <a href="https://cs230.stanford.edu/blog/namedentity" target="_blank">Named Entity Recognition Tagging with Pytorch</a>
+* <a href="https://skimai.com/how-to-fine-tune-bert-for-named-entity-recognition-ner/" target="_blank">How to Fine tune BERT for NER</a>
+* <a href="http://nlpprogress.com/english/named_entity_recognition.html" target="_blank">Recent SOTA Papers for NER systems in NLP Progress</a>
 
 ### Communication
 * Join us in <a href="https://join.slack.com/t/multiconer/shared_invite/zt-vi3g97cx-MpqTvS07XX22S78nRC2s0Q" target="_blank">Slack</a>
