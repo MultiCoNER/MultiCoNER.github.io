@@ -30,6 +30,23 @@ In a data file, samples are separated by blank lines. Each data instance is toke
 
 The following image shows the entities as annotated.
 ![.](images/trial_sample_viz.png)
+
+Here are some examples from the other languages.
+* <span style="color:red">Bangla:</span> ![.](images/BN.png)
+* <span style="color:red">Chinese:</span>![.](images/ZH.png)
+* <span style="color:red">Dutch:</span>![.](images/NL.png)
+* <span style="color:red">Farsi:</span>![.](images/FA.png)
+* <span style="color:red">German:</span> ![.](images/DE.png)
+* <span style="color:red">Hindi:</span>![.](images/HI.png)
+* <span style="color:red">Korean:</span>![.](images/KO.png)
+* <span style="color:red">Russian:</span>![.](images/RU.png)
+* <span style="color:red">Spanish:</span>: ![.](images/ES.png)
+* <span style="color:red">Turkish:</span>![.](images/TR.png)
+
+
+
+
+
 <!--## Official Competition Metric for the Task-->
 
 
@@ -106,17 +123,14 @@ The prediction file should follow [CoNLL](https://universaldependencies.org/form
         ```
         
 ### 5.2. Prepare submission files
-Follow the below instructions to submit your prediction files for a track:
-* **Tack 1: All language (Multi-lingual)**
-    * For each of the 12 evaluation files named in `<language_code>_dev.conll`, `(e.g., mix_dev.conll/ru_dev.conll`), use your trained model to generate prediction files for all the 12 evaluation files and name them in this format `<language_code>.pred.conll`, i.e.:
-        * `en.pred.conll`, `es.pred.conll`, `nl.pred.conll`, `ru.pred.conll`, `tr.pred.conll`, `ko.pred.conll`, `fa.pred.conll`, `de.pred.conll`, `zh.pred.conll`, `hi.pred.conll`, `bn.pred.conll`, `mix.pred.conll`
-        * Note that you will need submit exactly these 12 files to participate this track. 
-        * The tags in each of `<language_code>.pred.conll` have to be aligned with the tokens in `<language_code>_dev.conll`. That means, each test token will be replaced by a tag and the number of lines in `<language_code>.pred.conll` and `<language_code>_dev.conll` will be exactly the same.
-    * Put all these 12 files in a folder, compress it to a zip file by using `zip my_submission.zip *` , and the submit the zip file.
-* **Tack 2-13** 
-    * Use your trained specific model to generate a prediction file for a specific track. For example, when you participate English track, you will need to generate a prediction file for `en_dev.conll` or `en_test.conll` and name it as `en.pred.conll`.
-    * Compress it to a zip file by using `zip my_submission.zip en.pred.conll`, and the submit the zip file. 
-    * Note that you are only allowed to submit one prediction file per tack here, For example, for code-mixed tack, you will need to submit `mix.pred.conll`. Any other file will cause errors. 
+Follow the below instructions to submit your prediction files for a track. Codalab requires all submissions in zip format
+
+* Use your trained model to generate a prediction file for a specific tack and name it in this format: `<language_code>.pred.conll`. 
+    * For example, when you participate in the English track, you will need to generate a prediction file for en_dev.conll (or en_test.conll in the testing phase) and name it as en.pred.conll.
+    * The language_code values for  **Track 12 Multilingual** and **Track 13 code mixed** are **multi** and **mix**, respectively. That means, you will need to name the prediction file as `multi.pred.conll` or `mix.pred.conll`.
+* Compress the `<language_code>.pred.conll` file to a zip file by using zip `my_submission.zip <language_code>.pred.conll` (or your favorite zip utility), and the submit the zip file to the right track on Codalab.
+
+
 
 
 ## 6. Some Resources for the Beginners in NLP

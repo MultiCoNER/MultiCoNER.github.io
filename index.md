@@ -17,6 +17,8 @@ The task also aims at testing the domain adaption capability of the systems by t
 * Task organizers will rank the submissions based on their performance on each language, separately.
 * Participants are encouraged to aim for a bigger challenge to build NER systems for multiple languages. It can be one model per language or a single model for multiple languages.
 
+![.](images/BN.png)
+
 
 ## Motivation
 

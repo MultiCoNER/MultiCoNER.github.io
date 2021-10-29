@@ -95,7 +95,7 @@ order : 1
   
   <tr>
     <td><b>Total</b></td>
-    <td>1,68,300</td>
+    <td>168,300</td>
     <td>8,800</td>
     <td> TBA </td>
   </tr>
