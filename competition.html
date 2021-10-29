@@ -60,6 +60,7 @@
           <h4 id="side-table-header">Recent Updates</h4><br>
           <div style="background-color: beige">
           <ul>
+              <li><b>Oct 28, 2021</b> Submission site on <a href="https://competitions.codalab.org/competitions/36044" target="_blank">Codalab</a> is open now. Register now!</li> 
               <li><b>Oct 25, 2021</b> Updated information on <a href="/competition#:~:text=4.-,Evaluation,-In%20this%20shared" target="_blank">participation and preparing submissions.</a></li> 
               <li><b>Sep 10, 2021</b> A <a href="/baseline" target="_blank">Baseline system</a> with dev set results is available.</li> 
            <li>Join us in <a href="https://join.slack.com/t/multiconer/shared_invite/zt-vi3g97cx-MpqTvS07XX22S78nRC2s0Q" target="_blank">Slack</a>.</li>
@@ -195,8 +196,23 @@
 </blockquote>
 
 <p>The following image shows the entities as annotated.
-<img src="/images/trial_sample_viz.png" alt="." />
-<!--## Official Competition Metric for the Task--></p>
+<img src="/images/trial_sample_viz.png" alt="." /></p>
+
+<p>Here are some examples from the other languages.</p>
+<ul>
+  <li><span style="color:red">Bangla:</span> <img src="/images/BN.png" alt="." /></li>
+  <li><span style="color:red">Chinese:</span><img src="/images/ZH.png" alt="." /></li>
+  <li><span style="color:red">Dutch:</span><img src="/images/NL.png" alt="." /></li>
+  <li><span style="color:red">Farsi:</span><img src="/images/FA.png" alt="." /></li>
+  <li><span style="color:red">German:</span> <img src="/images/DE.png" alt="." /></li>
+  <li><span style="color:red">Hindi:</span><img src="/images/HI.png" alt="." /></li>
+  <li><span style="color:red">Korean:</span><img src="/images/KO.png" alt="." /></li>
+  <li><span style="color:red">Russian:</span><img src="/images/RU.png" alt="." /></li>
+  <li><span style="color:red">Spanish:</span>: <img src="/images/ES.png" alt="." /></li>
+  <li><span style="color:red">Turkish:</span><img src="/images/TR.png" alt="." /></li>
+</ul>
+
+<!--## Official Competition Metric for the Task-->
 
 <h2 id="3-label-space">3. Label Space</h2>
 <p>In this task, we focus on the following six entity types:</p>
@@ -285,27 +301,16 @@
 </ul>
 
 <h3 id="52-prepare-submission-files">5.2. Prepare submission files</h3>
-<p>Follow the below instructions to submit your prediction files for a track:</p>
+<p>Follow the below instructions to submit your prediction files for a track. Codalab requires all submissions in zip format</p>
+
 <ul>
-  <li><strong>Tack 1: All language (Multi-lingual)</strong>
+  <li>Use your trained model to generate a prediction file for a specific tack and name it in this format: <code class="language-plaintext highlighter-rouge">&lt;language_code&gt;.pred.conll</code>.
     <ul>
-      <li>For each of the 12 evaluation files named in <code class="language-plaintext highlighter-rouge">&lt;language_code&gt;_dev.conll</code>, <code class="language-plaintext highlighter-rouge">(e.g., mix_dev.conll/ru_dev.conll</code>), use your trained model to generate prediction files for all the 12 evaluation files and name them in this format <code class="language-plaintext highlighter-rouge">&lt;language_code&gt;.pred.conll</code>, i.e.:
-        <ul>
-          <li><code class="language-plaintext highlighter-rouge">en.pred.conll</code>, <code class="language-plaintext highlighter-rouge">es.pred.conll</code>, <code class="language-plaintext highlighter-rouge">nl.pred.conll</code>, <code class="language-plaintext highlighter-rouge">ru.pred.conll</code>, <code class="language-plaintext highlighter-rouge">tr.pred.conll</code>, <code class="language-plaintext highlighter-rouge">ko.pred.conll</code>, <code class="language-plaintext highlighter-rouge">fa.pred.conll</code>, <code class="language-plaintext highlighter-rouge">de.pred.conll</code>, <code class="language-plaintext highlighter-rouge">zh.pred.conll</code>, <code class="language-plaintext highlighter-rouge">hi.pred.conll</code>, <code class="language-plaintext highlighter-rouge">bn.pred.conll</code>, <code class="language-plaintext highlighter-rouge">mix.pred.conll</code></li>
-          <li>Note that you will need submit exactly these 12 files to participate this track.</li>
-          <li>The tags in each of <code class="language-plaintext highlighter-rouge">&lt;language_code&gt;.pred.conll</code> have to be aligned with the tokens in <code class="language-plaintext highlighter-rouge">&lt;language_code&gt;_dev.conll</code>. That means, each test token will be replaced by a tag and the number of lines in <code class="language-plaintext highlighter-rouge">&lt;language_code&gt;.pred.conll</code> and <code class="language-plaintext highlighter-rouge">&lt;language_code&gt;_dev.conll</code> will be exactly the same.</li>
-        </ul>
-      </li>
-      <li>Put all these 12 files in a folder, compress it to a zip file by using <code class="language-plaintext highlighter-rouge">zip my_submission.zip *</code> , and the submit the zip file.</li>
+      <li>For example, when you participate in the English track, you will need to generate a prediction file for en_dev.conll (or en_test.conll in the testing phase) and name it as en.pred.conll.</li>
+      <li>The language_code values for  <strong>Track 12 Multilingual</strong> and <strong>Track 13 code mixed</strong> are <strong>multi</strong> and <strong>mix</strong>, respectively. That means, you will need to name the prediction file as <code class="language-plaintext highlighter-rouge">multi.pred.conll</code> or <code class="language-plaintext highlighter-rouge">mix.pred.conll</code>.</li>
     </ul>
   </li>
-  <li><strong>Tack 2-13</strong>
-    <ul>
-      <li>Use your trained specific model to generate a prediction file for a specific track. For example, when you participate English track, you will need to generate a prediction file for <code class="language-plaintext highlighter-rouge">en_dev.conll</code> or <code class="language-plaintext highlighter-rouge">en_test.conll</code> and name it as <code class="language-plaintext highlighter-rouge">en.pred.conll</code>.</li>
-      <li>Compress it to a zip file by using <code class="language-plaintext highlighter-rouge">zip my_submission.zip en.pred.conll</code>, and the submit the zip file.</li>
-      <li>Note that you are only allowed to submit one prediction file per tack here, For example, for code-mixed tack, you will need to submit <code class="language-plaintext highlighter-rouge">mix.pred.conll</code>. Any other file will cause errors.</li>
-    </ul>
-  </li>
+  <li>Compress the <code class="language-plaintext highlighter-rouge">&lt;language_code&gt;.pred.conll</code> file to a zip file by using zip <code class="language-plaintext highlighter-rouge">my_submission.zip &lt;language_code&gt;.pred.conll</code> (or your favorite zip utility), and the submit the zip file to the right track on Codalab.</li>
 </ul>
 
 <h2 id="6-some-resources-for-the-beginners-in-nlp">6. Some Resources for the Beginners in NLP</h2>
