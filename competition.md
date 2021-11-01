@@ -32,16 +32,16 @@ The following image shows the entities as annotated.
 ![.](images/trial_sample_viz.png)
 
 Here are some examples from the other languages.
-* <span style="color:red">Bangla:</span> ![.](images/BN.png)
-* <span style="color:red">Chinese:</span>![.](images/ZH.png)
-* <span style="color:red">Dutch:</span>![.](images/NL.png)
-* <span style="color:red">Farsi:</span>![.](images/FA.png)
-* <span style="color:red">German:</span> ![.](images/DE.png)
-* <span style="color:red">Hindi:</span>![.](images/HI.png)
-* <span style="color:red">Korean:</span>![.](images/KO.png)
-* <span style="color:red">Russian:</span>![.](images/RU.png)
-* <span style="color:red">Spanish:</span>: ![.](images/ES.png)
-* <span style="color:red">Turkish:</span>![.](images/TR.png)
+* <span style="color:#274277"><b>Bangla:</b></span> ![.](images/b/BN.png)
+* <span style="color:#274277"><b>Chinese:</b></span>![.](images/b/ZH.png)
+* <span style="color:#274277"><b>Hindi:</b></span>![.](images/b/HI.png)
+* <span style="color:#274277"><b>Korean:</b></span>![.](images/b/KO.png)
+* <span style="color:#274277"><b>German:</b></span> ![.](images/b/DE.png)
+* <span style="color:#274277"><b>Russian:</b></span>![.](images/b/RU.png)
+* <span style="color:#274277"><b>Turkish:</b></span>![.](images/b/TR.png)
+* <span style="color:#274277"><b>Farsi:</b></span>![.](images/b/FA.png)
+* <span style="color:#274277"><b>Dutch:</b></span>![.](images/b/NL.png)
+* <span style="color:#274277"><b>Spanish:</b></span> ![.](images/b/ES.png)
 
 
 

@@ -11,13 +11,30 @@ The task also aims at testing the domain adaption capability of the systems by t
 
 
 **Highlights of the task**
+
 * Task organizers will provide entity annotated training data for 11 languages. 
 * Participants can use the data to build NER model for one or more languages.
 * Task organizers will provide test data without the annotations. The participants have to use their systems to correctly detect the entities and submit the predictions to Codalab page.
 * Task organizers will rank the submissions based on their performance on each language, separately.
 * Participants are encouraged to aim for a bigger challenge to build NER systems for multiple languages. It can be one model per language or a single model for multiple languages.
 
-![.](images/BN.png)
+**Data Examples**
+
+Here are some examples from all the 11 languages.\
+The entities are highlighted with the entity type.
+
+* <span style="color:#274277"><b>Bangla:</b></span> ![.](images/b/BN.png)
+* <span style="color:#274277"><b>Chinese:</b></span>![.](images/b/ZH.png)
+* <span style="color:#274277"><b>English:</b></span>![.](images/b/EN.png)
+* <span style="color:#274277"><b>Hindi:</b></span>![.](images/b/HI.png)
+* <span style="color:#274277"><b>Korean:</b></span>![.](images/b/KO.png)
+* <span style="color:#274277"><b>German:</b></span> ![.](images/b/DE.png)
+* <span style="color:#274277"><b>Russian:</b></span>![.](images/b/RU.png)
+* <span style="color:#274277"><b>Turkish:</b></span>![.](images/b/TR.png)
+* <span style="color:#274277"><b>Farsi:</b></span>![.](images/b/FA.png)
+* <span style="color:#274277"><b>Dutch:</b></span>![.](images/b/NL.png)
+* <span style="color:#274277"><b>Spanish:</b></span> ![.](images/b/ES.png)
+
 
 
 ## Motivation
