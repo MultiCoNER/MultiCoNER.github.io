@@ -18,15 +18,17 @@ We have released a baseline system that fine-tunes the XLM-RoBERTa base model fo
 We expect, this baseline can be the starting point from where the participants can start building their own systems. 
 
 # Baselines Results
+For the baseline model performance in the development set, please check the <a href="https://competitions.codalab.org/competitions/36044#results" target="_blank">Codalab leaderboard</a>. Baseline submissions are made with the team name "MultiCoNER Baseline".
+
+<!--
 The following table presents the NER performance in different languages using the baseline system. For each language, we report the Precision (P), Recall (R), and F1 score in identifying each of the entity class label. Then we provide the micro averaged perforance on all the classes. 
 Additionally, we report the performance on Mention Detection (MD), where the task is to only identify an entity boundaries regardless of the entity type.
-
 Note that these results are for the development set.
-
+-->
 
 <br>
 
-<table>
+<!--table>
 	<tr>
 		<td></td>
         <td></td>
@@ -386,9 +388,8 @@ Note that these results are for the development set.
 		<td>0.867</td>
 		<td>0.79</td>
 	</tr>
-	
-    
-</table>
+</table-->
+
 
 ### Communication
 * Join us in <a href="https://join.slack.com/t/multiconer/shared_invite/zt-vi3g97cx-MpqTvS07XX22S78nRC2s0Q">Slack</a>
