@@ -9,7 +9,7 @@
     {% capture nowdate %}{{'now' | date: '%s' | minus: 86400 }}{% endcapture %}
       {% capture trialdata %}{{'July 31 2021' | date: '%s'}}{% endcapture %}
       {% capture trainingdata %}{{'September 3 2021' | date: '%s'}}{% endcapture %}
-      {% capture testdata %}{{'December 3 2021' | date: '%s'}}{% endcapture %}
+<!--      {% capture testdata %}{{'December 3 2021' | date: '%s'}}{% endcapture %}-->
       {% capture evalstart %}{{'January 10 2022' | date: '%s'}}{% endcapture %}
       {% capture evalend %}{{'January 31 2022' | date: '%s'}}{% endcapture %}
       {% capture postresult %}{{'March 18 2020' | date: '%s'}}{% endcapture %}
@@ -53,6 +53,7 @@
                 {{ trainingdata | date: "%b %-d (%a), %Y" }}
               </td>
             </tr>
+<!--
             <tr><td>Test Data Ready</td>
               <td>
                 {% if testdata < nowdate %} <strike> <font color="grey">{% endif %}
@@ -61,6 +62,7 @@
                 {{ testdata | date: "%b %-d (%a), %Y" }}
               </td>
             </tr>
+-->
             <tr><td>Evaluation Start</td>
               <td>
                 {% if evalstart < nowdate %} <strike> <font color="grey">{% endif %}
@@ -123,7 +125,7 @@
               </td>
             </tr>
             <tr><td>Workshop</td>
-              <td>Summer, 2022</td>
+              <td>July, 2022 with <a href="https://2022.naacl.org/" target="_blank">NAACL</a></td>
             </tr>
 
             <tr>
