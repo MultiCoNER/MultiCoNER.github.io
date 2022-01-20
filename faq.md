@@ -6,24 +6,34 @@ title: faq
 ## FAQs
 
 ### 1. When the test data will be available?
-The evaluation phase will start on January 24th and end on January 28th. Test data will be made available prior the start period.
+The evaluation phase will start on **24th January 00:00 UTC** and end on **28th January 23:59 UTC**. Test data will be made available in **Codalab** prior the start period. As we will follow the UTC timezone, please convert the time to your local time beforehand to avoid any confusion.
+
 
 ### 2. How can I participate in the test phase?
-A new Codalab submission site will be available before the evaluation phase. We will notify every participants from the practice phase with the link to the submission site for the test phase. Test predictions should be submitted to that site.
+A new Codalab submission site will be available before the evaluation phase. We will notify every participants from the practice phase with the link to the submission site for the test phase. Test predictions should be submitted to that site. For each track **maximum 6 submissions are allowed**. The **best result** will be used.
 
 
 ### 3. How large will be the test data?
-The test data for each language will have at least 150+ instances and for some languages there are approximately 500K+ instances.
+The test data for each language will have at least 150K+ instances and for some languages there are approximately 500K+ instances. **As a result, generating predictions can take longer**.
 
 
 ### 4. How the final ranking will be determined? Will it consider per-domain F1?
 Per-domain F1 will be shown in output JSON file, but final ranking will be determined based on overall macro-F1.
 
 
-### 5. What are the domains of the test data?
+### 5. Will I be able to see my results and the leaderboard during the test phase?
+You can see the results on your submissions, but the leaderboard will not be available until after the competition.
+
+
+### 6. Can we use an ensemble-based approach?
+Yes, you can use any model for the task.
+
+
+### 7. What are the domains of the test data?
 The test data domains are similar as the development data. Looking at the development set will give an idea on the domains.
 
-### 6. How much of the test entities overlap with the training entities?
+
+### 8. How much of the test entities overlap with the training entities?
 This table provides the percentage of test data entities that are also found in the training sets.
 
 <table style="width:60%">
@@ -156,12 +166,16 @@ This table provides the percentage of test data entities that are also found in 
 </table>
 
 
-### 7. How is the label distribution in the test data?
+### 9. How is the label distribution in the test data?
 The plot below shows the label distribution in the train and test data. Y axis indicates the percentage of a particular label in the data.
 
 <img src="images/dist.png">
 
-### 8. How many unique entities are there?
+### 10. How many unique entities are there?
 This plot shows the total number of unique entities in the train and test sets.
 <img src="images/unique_entities.png">
+
+
+
+
 
