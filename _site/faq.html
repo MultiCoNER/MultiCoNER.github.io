@@ -61,6 +61,8 @@
           <h4 id="side-table-header">Recent Updates</h4><br>
           <div style="background-color: beige">
           <ul>
+              <li><b>Jan 25, 2021</b> Test phase duration is increased by 2 days. New end date <b>Jan 30 23:59 UTC</b>.</li>
+              <li><b>Jan 04, 2021</b> <a href="/faq" target="_blank">FAQs</a> about test phase are answered.</li> 
               <li><b>Oct 28, 2021</b> Submission site on <a href="https://competitions.codalab.org/competitions/36044" target="_blank">Codalab</a> is open now. Register now!</li> 
               <li><b>Oct 25, 2021</b> Updated information on <a href="/competition#:~:text=4.-,Evaluation,-In%20this%20shared" target="_blank">participation and preparing submissions.</a></li> 
               <li><b>Sep 10, 2021</b> A <a href="/baseline" target="_blank">Baseline system</a> with dev set results is available.</li> 
@@ -101,9 +103,9 @@
 -->
             <tr><td>Evaluation Start</td>
               <td>
+                 <strike> <font color="grey">
                 
                 
-                 <font color="red"> 
                 Jan 24 (Mon), 2022
               </td>
             </tr>
@@ -111,8 +113,8 @@
               <td>
                 
                 
-                
-                Jan 28 (Fri), 2022
+                 <font color="red"> 
+                Jan 30 (Sun), 2022
               </td>
             </tr>
 <!--
@@ -129,7 +131,7 @@
               <td>
                 
                 
-                
+                 <font color="red"> 
                 Feb 23 (Wed), 2022
               </td>
             </tr>
@@ -177,21 +179,27 @@
       <h2 id="faqs">FAQs</h2>
 
 <h3 id="1-when-the-test-data-will-be-available">1. When the test data will be available?</h3>
-<p>The evaluation phase will start on January 24th and end on January 28th. Test data will be made available prior the start period.</p>
+<p>The evaluation phase will start on <strong>24th January 00:00 UTC</strong> and end on <strong>28th January 23:59 UTC</strong>. Test data will be made available in <strong>Codalab</strong> prior the start period. As we will follow the UTC timezone, please convert the time to your local time beforehand to avoid any confusion.</p>
 
 <h3 id="2-how-can-i-participate-in-the-test-phase">2. How can I participate in the test phase?</h3>
-<p>A new Codalab submission site will be available before the evaluation phase. We will notify every participants from the practice phase with the link to the submission site for the test phase. Test predictions should be submitted to that site.</p>
+<p>A new Codalab submission site will be available before the evaluation phase. We will notify every participants from the practice phase with the link to the submission site for the test phase. Test predictions should be submitted to that site. For each track <strong>maximum 6 submissions are allowed</strong>. The <strong>best result</strong> will be used.</p>
 
 <h3 id="3-how-large-will-be-the-test-data">3. How large will be the test data?</h3>
-<p>The test data for each language will have at least 150+ instances and for some languages there are approximately 500K+ instances.</p>
+<p>The test data for each language will have at least 150K+ instances and for some languages there are approximately 500K+ instances. <strong>As a result, generating predictions can take longer</strong>.</p>
 
 <h3 id="4-how-the-final-ranking-will-be-determined-will-it-consider-per-domain-f1">4. How the final ranking will be determined? Will it consider per-domain F1?</h3>
 <p>Per-domain F1 will be shown in output JSON file, but final ranking will be determined based on overall macro-F1.</p>
 
-<h3 id="5-what-are-the-domains-of-the-test-data">5. What are the domains of the test data?</h3>
+<h3 id="5-will-i-be-able-to-see-my-results-and-the-leaderboard-during-the-test-phase">5. Will I be able to see my results and the leaderboard during the test phase?</h3>
+<p>You can see the results on your submissions, but the leaderboard will not be available until after the competition.</p>
+
+<h3 id="6-can-we-use-an-ensemble-based-approach">6. Can we use an ensemble-based approach?</h3>
+<p>Yes, you can use any model for the task.</p>
+
+<h3 id="7-what-are-the-domains-of-the-test-data">7. What are the domains of the test data?</h3>
 <p>The test data domains are similar as the development data. Looking at the development set will give an idea on the domains.</p>
 
-<h3 id="6-how-much-of-the-test-entities-overlap-with-the-training-entities">6. How much of the test entities overlap with the training entities?</h3>
+<h3 id="8-how-much-of-the-test-entities-overlap-with-the-training-entities">8. How much of the test entities overlap with the training entities?</h3>
 <p>This table provides the percentage of test data entities that are also found in the training sets.</p>
 
 <table style="width:60%">
@@ -323,14 +331,17 @@
   
 </table>
 
-<h3 id="7-how-is-the-label-distribution-in-the-test-data">7. How is the label distribution in the test data?</h3>
+<h3 id="9-how-is-the-label-distribution-in-the-test-data">9. How is the label distribution in the test data?</h3>
 <p>The plot below shows the label distribution in the train and test data. Y axis indicates the percentage of a particular label in the data.</p>
 
 <p><img src="images/dist.png" /></p>
 
-<h3 id="8-how-many-unique-entities-are-there">8. How many unique entities are there?</h3>
+<h3 id="10-how-many-unique-entities-are-there">10. How many unique entities are there?</h3>
 <p>This plot shows the total number of unique entities in the train and test sets.
 <img src="images/unique_entities.png" /></p>
+
+<h3 id="11-since-the-test-set-is-large-is-there-a-way-to-efficiently-output-token-tags-for-models-using-subword-tokenizers">11. Since the test set is large, is there a way to efficiently output token tags for models using subword tokenizers?</h3>
+<p>We have implemented a method for doing this step. More details available <a href="https://github.com/amzn/multiconer-baseline/blob/main/README.md#:~:text=For%20this%20functionality">here</a>.</p>
 
 
 

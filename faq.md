@@ -175,6 +175,8 @@ The plot below shows the label distribution in the train and test data. Y axis i
 This plot shows the total number of unique entities in the train and test sets.
 <img src="images/unique_entities.png">
 
+### 11. Since the test set is large, is there a way to efficiently output token tags for models using subword tokenizers?
+We have implemented a method for doing this step. More details available <a href="https://github.com/amzn/multiconer-baseline/blob/main/README.md#:~:text=For%20this%20functionality">here</a>.
 
 
 
