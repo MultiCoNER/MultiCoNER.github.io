@@ -5,6 +5,8 @@ permalink: /competition
 order : 1
 ---
 
+<mark>The competition is over. The <a href="/dataset" target="_blank">dataset</a> is publicly available. You can check out the post-evaluation phase <a href="https://competitions.codalab.org/competitions/36425" target="_blank">here</a>.</mark>
+
 ## 1. How to Participate
 * The organizers have defined a task (i.e., NER) and released the training data on September 3rd. The task is divided across several languages as subtasks. The participants can work on as many as languages they want to.
 * Participants can form a team with multiple people or single person team is okay.

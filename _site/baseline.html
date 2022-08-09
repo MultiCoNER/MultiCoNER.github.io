@@ -40,7 +40,8 @@
     <a href="/baseline" class="btn">Baseline</a>
   <a href="/organizers" class="btn">Organizers</a>
     <a href="/faq" class="btn">FAQs</a>
-<!--    <a href="/results" class="btn">Results</a>-->
+    <a href="/results" class="btn">Results</a>
+    <a href="/paper" class="btn">Paper Instructions</a>
 </section>
 
     
@@ -62,8 +63,10 @@
           <h4 id="side-table-header">Recent Updates</h4><br>
           <div style="background-color: beige">
           <ul>
-              <li><b>Jan 25, 2021</b> Test phase duration is increased by 2 days. New end date <b>Jan 30 23:59 UTC</b>.</li>
-              <li><b>Jan 04, 2021</b> <a href="/faq" target="_blank">FAQs</a> about test phase are answered.</li> 
+              <li><b>Feb 8, 2022</b> Please check out <a href="/paper" target="_blank">this page</a> for information on paper submission.</li>
+              <li><b>Feb 5, 2022</b> <a href="/results" target="_blank">Rankings</a> are out.</li>
+              <li><b>Jan 25, 2022</b> Test phase duration is increased by 2 days. New end date <b>Jan 30 23:59 UTC</b>.</li>
+              <li><b>Jan 04, 2022</b> <a href="/faq" target="_blank">FAQs</a> about test phase are answered.</li> 
               <li><b>Oct 28, 2021</b> Submission site on <a href="https://competitions.codalab.org/competitions/36044" target="_blank">Codalab</a> is open now. Register now!</li> 
               <li><b>Oct 25, 2021</b> Updated information on <a href="/competition#:~:text=4.-,Evaluation,-In%20this%20shared" target="_blank">participation and preparing submissions.</a></li> 
               <li><b>Sep 10, 2021</b> A <a href="/baseline" target="_blank">Baseline system</a> with dev set results is available.</li> 
@@ -130,10 +133,10 @@
 -->
             <tr><td>System Description Paper Submission Due</td>
               <td>
+                 <strike> <font color="grey">
                 
                 
-                 <font color="red"> 
-                Feb 23 (Wed), 2022
+                Feb 28 (Mon), 2022
               </td>
             </tr>
 <!--
@@ -148,7 +151,7 @@
 -->
             <tr><td>Notification to Authors</td>
               <td>
-                
+                 <strike> <font color="grey">
                 
                 
                 Mar 31 (Thu), 2022
@@ -160,11 +163,12 @@
                 
                 
                 
-                TBD
+                Apr 21 (Thu), 2022
+                
               </td>
             </tr>
             <tr><td>Workshop</td>
-              <td>July, 2022 with <a href="https://2022.naacl.org/" target="_blank">NAACL</a></td>
+              <td>14-15 July 2022 co-located with <a href="https://2022.naacl.org/" target="_blank">NAACL</a></td>
             </tr>
 
             <tr>
@@ -192,6 +196,71 @@
 
 <h1 id="baselines-results">Baselines Results</h1>
 <p>For the baseline model performance in the development set, please check the <a href="https://competitions.codalab.org/competitions/36044#results" target="_blank">Codalab leaderboard</a>. Baseline submissions are made with the team name “MultiCoNER Baseline”.</p>
+
+<p><strong>Results on test set</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Track</strong></th>
+      <th><strong>Macro F1</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>English</td>
+      <td>0.612</td>
+    </tr>
+    <tr>
+      <td>German</td>
+      <td>0.634</td>
+    </tr>
+    <tr>
+      <td>Spanish</td>
+      <td>0.574</td>
+    </tr>
+    <tr>
+      <td>Russian</td>
+      <td>0.591</td>
+    </tr>
+    <tr>
+      <td>Dutch</td>
+      <td>0.616</td>
+    </tr>
+    <tr>
+      <td>Korean</td>
+      <td>0.546</td>
+    </tr>
+    <tr>
+      <td>Farsi</td>
+      <td>0.518</td>
+    </tr>
+    <tr>
+      <td>Turkish</td>
+      <td>0.457</td>
+    </tr>
+    <tr>
+      <td>Chinese</td>
+      <td>0.511</td>
+    </tr>
+    <tr>
+      <td>Hindi</td>
+      <td>0.469</td>
+    </tr>
+    <tr>
+      <td>Bangla</td>
+      <td>0.391</td>
+    </tr>
+    <tr>
+      <td>Multi</td>
+      <td>0.541</td>
+    </tr>
+    <tr>
+      <td>Mix</td>
+      <td>0.581</td>
+    </tr>
+  </tbody>
+</table>
 
 <!--
 The following table presents the NER performance in different languages using the baseline system. For each language, we report the Precision (P), Recall (R), and F1 score in identifying each of the entity class label. Then we provide the micro averaged perforance on all the classes. 

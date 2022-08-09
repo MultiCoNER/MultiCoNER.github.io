@@ -5,6 +5,8 @@ permalink:
 order: 1
 ---
 
+<span style="color:red">Check out the task Overview Paper <a href="https://aclanthology.org/2022.semeval-1.196.pdf"> here. </a></span>
+
 
 This shared task challenges NLP enthusiasts to develop complex Named Entity Recognition systems for **11** languages. The task focuses on detecting semantically ambiguous and complex entities in short and low-context settings. Participants are welcome to build NER systems for any number of languages. And we encourage to aim for a bigger challenge of building NER systems for multiple languages. The languages are: **English, Spanish, Dutch, Russian, Turkish, Korean, Farsi, German, Chinese, Hindi**, and **Bangla**. For some languages, an additional track with code-mixed data will be offered.
 The task also aims at testing the domain adaption capability of the systems by testing on additional test sets on questions and short search queries.

@@ -20,6 +20,24 @@ We expect, this baseline can be the starting point from where the participants c
 # Baselines Results
 For the baseline model performance in the development set, please check the <a href="https://competitions.codalab.org/competitions/36044#results" target="_blank">Codalab leaderboard</a>. Baseline submissions are made with the team name "MultiCoNER Baseline".
 
+**Results on test set**
+
+| **Track** | **Macro F1** |
+|---|---|
+| English | 0.612 |
+| German | 0.634 |
+| Spanish | 0.574 |
+| Russian | 0.591 |
+| Dutch | 0.616 |
+| Korean | 0.546 |
+| Farsi | 0.518 |
+| Turkish | 0.457 |
+| Chinese | 0.511 |
+| Hindi | 0.469 |
+| Bangla | 0.391 |
+| Multi | 0.541 |
+| Mix | 0.581 |
+
 <!--
 The following table presents the NER performance in different languages using the baseline system. For each language, we report the Precision (P), Recall (R), and F1 score in identifying each of the entity class label. Then we provide the micro averaged perforance on all the classes. 
 Additionally, we report the performance on Mention Detection (MD), where the task is to only identify an entity boundaries regardless of the entity type.
