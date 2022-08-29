@@ -3,7 +3,7 @@
   
   <head>
   <meta charset="UTF-8">
-  <title>SemEval 2022 Task 11: MultiCoNER </br><b>Multi</b>lingual <b>Co</b>mplex <b>N</b>amed <b>E</b>ntity <b>R</b>ecognition</title>
+  <title>SemEval 2023 Task 2: MultiCoNER II</br><b>Multi</b>lingual <b>Co</b>mplex <b>N</b>amed <b>E</b>ntity <b>R</b>ecognition</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
   <link rel="stylesheet" href="/css/normalize.css">
@@ -32,16 +32,21 @@
 
   <body>
     <section class="page-header">
-  <h1 class="project-name">SemEval 2022 Task 11: MultiCoNER </br><b>Multi</b>lingual <b>Co</b>mplex <b>N</b>amed <b>E</b>ntity <b>R</b>ecognition</h1>
+  <h1 class="project-name">SemEval 2023 Task 2: MultiCoNER II</br><b>Multi</b>lingual <b>Co</b>mplex <b>N</b>amed <b>E</b>ntity <b>R</b>ecognition</h1>
   <h2 class="project-tagline"></h2>
   <a href="/" class="btn">Welcome</a>  
   <a href="/competition" class="btn">Competition</a>
+<!--
     <a href="/dataset" class="btn">Dataset</a>
     <a href="/baseline" class="btn">Baseline</a>
+-->
   <a href="/organizers" class="btn">Organizers</a>
+<!--
     <a href="/faq" class="btn">FAQs</a>
     <a href="/results" class="btn">Results</a>
     <a href="/paper" class="btn">Paper Instructions</a>
+-->
+    <a href="/multiconer_1/" class="btn">MultiCoNER I</a>  
 </section>
 
     
@@ -60,9 +65,12 @@
     <section class="main-content">
       <div id="side-table-wrapper" style="float:right; width:310px; font-size: small">
           
-          <h4 id="side-table-header">Recent Updates</h4><br>
+<!--          <h4 id="side-table-header">Recent Updates</h4><br>-->
+<!--
           <div style="background-color: beige">
           <ul>
+-->
+<!--
               <li><b>Feb 8, 2022</b> Please check out <a href="/paper" target="_blank">this page</a> for information on paper submission.</li>
               <li><b>Feb 5, 2022</b> <a href="/results" target="_blank">Rankings</a> are out.</li>
               <li><b>Jan 25, 2022</b> Test phase duration is increased by 2 days. New end date <b>Jan 30 23:59 UTC</b>.</li>
@@ -73,8 +81,9 @@
            <li>Join us in <a href="https://join.slack.com/t/multiconer/shared_invite/zt-vi3g97cx-MpqTvS07XX22S78nRC2s0Q" target="_blank">Slack</a>.</li>
               <li><b>Sep 03, 2021</b> <a href="/dataset">Training data</a> is available.</li>
            <li><b>Aug 23, 2021</b> <a href="/competition">Competition</a> page has some trial data.</li>
-          </ul>
-              </div>
+-->
+<!--          </ul>-->
+<!--              </div>-->
           
         <h4 id="side-table-header">Important Dates</h4>
         <table id="important-dates" class="table table-condensed">
@@ -84,15 +93,15 @@
                 
                  <strike> <font color="grey">
                 
-                Jul 31 (Sat), 2021
+                Jul 15 (Fri), 2022
               </td>
             </tr>
             <tr><td>Training Data Ready</td>
               <td>
-                 <strike> <font color="grey">
                 
                 
-                Sep 3 (Fri), 2021
+                 <font color="red"> 
+                Sep 1 (Thu), 2022
               </td>
             </tr>
 <!--
@@ -107,54 +116,54 @@
 -->
             <tr><td>Evaluation Start</td>
               <td>
-                 <strike> <font color="grey">
                 
                 
-                Jan 24 (Mon), 2022
+                
+                Jan 10 (Tue), 2023
               </td>
             </tr>
             <tr><td>Evaluation End</td>
               <td>
-                 <strike> <font color="grey">
                 
                 
-                Jan 30 (Sun), 2022
+                
+                Jan 31 (Tue), 2023
               </td>
             </tr>
 <!--
             <tr><td>Results Posted</td>
               <td>
-                 <strike> <font color="grey">
                 
                 
-                Mar 18 (Wed), 2020
+                
+                Jan 31 (Tue), 2023
               </td>
             </tr>
 -->
             <tr><td>System Description Paper Submission Due</td>
               <td>
-                 <strike> <font color="grey">
                 
                 
-                Feb 28 (Mon), 2022
+                
+                Feb 1 (Wed), 2023
               </td>
             </tr>
 <!--
             <tr><td>Task Description Paper Submission Due</td>
               <td>
-                 <strike> <font color="grey">
                 
                 
-                May 8 (Fri), 2020
+                
+                May 1 (Mon), 2023
               </td>
             </tr>
 -->
             <tr><td>Notification to Authors</td>
               <td>
-                 <strike> <font color="grey">
                 
                 
-                Mar 31 (Thu), 2022
+                
+                Mar 1 (Wed), 2023
               </td>
             </tr>
             
@@ -163,7 +172,7 @@
                 
                 
                 
-                Apr 21 (Thu), 2022
+                Apr 1 (Sat), 2023
                 
               </td>
             </tr>
@@ -181,58 +190,93 @@
         
       </div>
       <!-- ===================================== -->
-      <p><span style="color:red">Check out the task Overview Paper <a href="https://aclanthology.org/2022.semeval-1.196.pdf"> here. </a></span></p>
+      <p><br /><br /></p>
 
-<p>This shared task challenges NLP enthusiasts to develop complex Named Entity Recognition systems for <strong>11</strong> languages. The task focuses on detecting semantically ambiguous and complex entities in short and low-context settings. Participants are welcome to build NER systems for any number of languages. And we encourage to aim for a bigger challenge of building NER systems for multiple languages. The languages are: <strong>English, Spanish, Dutch, Russian, Turkish, Korean, Farsi, German, Chinese, Hindi</strong>, and <strong>Bangla</strong>. For some languages, an additional track with code-mixed data will be offered.
-The task also aims at testing the domain adaption capability of the systems by testing on additional test sets on questions and short search queries.</p>
+<p>Complex  named  entities  (NE),  like  the  titles  of creative works, are not simple nouns and pose challenges for NER systems (Ashwini and Choi, 2014). They can take the form of any linguistic constituent, like  an  imperative  clause  (“Dial M for Murder”), and do not look like traditional NEs (Persons, Locations, etc.).  This syntactic ambiguity makes it challenging to recognize them based on context. We organized the MultiCoNER task (Malmasi et al., 2022) at SemEval-2022 to address these challenges in 11 languages, receiving a very positive community response with 34 system papers. Results confirmed the challenges of processing complex and long-tail NEs: even the largest pre-trained Transformers did not achieve top performance without external knowledge. The top systems infused transformers with knowledge bases and gazetteers. However, such solutions are brittle against out of knowledge-base entities and noisy scenarios like the presence of spelling mistakes and typos. We  propose MultiCoNER II which  represents novel challenges through new tasks that emphasize the shortcomings of the current top models.</p>
 
-<p><strong>Highlights of the task</strong></p>
+<p>MultiCoNER II features complex NER in these languages:</p>
 
-<ul>
-  <li>Task organizers will provide entity annotated training data for 11 languages.</li>
-  <li>Participants can use the data to build NER model for one or more languages.</li>
-  <li>Task organizers will provide test data without the annotations. The participants have to use their systems to correctly detect the entities and submit the predictions to Codalab page.</li>
-  <li>Task organizers will rank the submissions based on their performance on each language, separately.</li>
-  <li>Participants are encouraged to aim for a bigger challenge to build NER systems for multiple languages. It can be one model per language or a single model for multiple languages.</li>
-</ul>
+<ol>
+<li> English </li>
+<li> Spanish </li>
+<li> Hindi </li>
+<li> Bangla </li>
+<li> Chinese </li>
+<li> Swedish </li>
+<li> Farsi </li>
+<li> French </li>
+<li> Italian </li>
+<li> Portugese </li>
+<li> Ukranian </li>
+<li> German </li>
+</ol>
 
-<p><strong>Data Examples</strong></p>
+<p>In this task, we focus on fine-grained NER, new domains and entities, and dealing with noisy input. These challenges are described in Table 1, and our tasks defined below</p>
 
-<p>Here are some examples from all the 11 languages.<br />
-The entities are highlighted with the entity type.</p>
+<p><img src="/images/table_1_multiconer2.png" alt="Examples of Complex Entities" /></p>
 
-<ul>
-  <li><span style="color:#274277"><b>Bangla:</b></span> <img src="/images/b/BN.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Chinese:</b></span><img src="/images/b/ZH.png" alt="." /></li>
-  <li><span style="color:#274277"><b>English:</b></span><img src="/images/b/EN.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Hindi:</b></span><img src="/images/b/HI.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Korean:</b></span><img src="/images/b/KO.png" alt="." /></li>
-  <li><span style="color:#274277"><b>German:</b></span> <img src="/images/b/DE.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Russian:</b></span><img src="/images/b/RU.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Turkish:</b></span><img src="/images/b/TR.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Farsi:</b></span><img src="/images/b/FA.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Dutch:</b></span><img src="/images/b/NL.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Spanish:</b></span> <img src="/images/b/ES.png" alt="." /></li>
-</ul>
+<!--
+<span style="color:red">Check out the task Overview Paper <a href="https://aclanthology.org/2022.semeval-1.196.pdf"> here. </a></span>
 
-<h2 id="motivation">Motivation</h2>
 
-<p style="text-align: justify">Processing complex and ambiguous Named Entities (NEs) is a challenging NLP task in practical and open-domain settings, but has not received sufficient attention from the research community.</p>
+This shared task challenges NLP enthusiasts to develop complex Named Entity Recognition systems for **11** languages. The task focuses on detecting semantically ambiguous and complex entities in short and low-context settings. Participants are welcome to build NER systems for any number of languages. And we encourage to aim for a bigger challenge of building NER systems for multiple languages. The languages are: **English, Spanish, Dutch, Russian, Turkish, Korean, Farsi, German, Chinese, Hindi**, and **Bangla**. For some languages, an additional track with code-mixed data will be offered.
+The task also aims at testing the domain adaption capability of the systems by testing on additional test sets on questions and short search queries.
 
-<p style="text-align: justify">Complex NEs, like the titles of creative works (movie/book/song/software names) are not simple nouns and are harder to recognize (Ashwini and Choi, 2014). They can take the form of any linguistic constituent, like an imperative clause (“Dial M for Murder”), and do not look like traditional NEs (Person names, locations, organizations). This syntactic ambiguity makes it challenging to recognize them based on their context. Such titles can also be semantically ambiguous, e.g., “On the Beach” can be a preposition or refer to a movie. Finally, such entities usually grow at a faster rate than traditional categories, and emerging entities pose yet another challenge. Table 1 lists more details about these challenges, and how they can be evaluated.</p>
 
-<p style="text-align: justify">Neural models (e.g., Transformers) have produced high scores on benchmark datasets like CoNLL03/OntoNotes (Devlin et al., 2019). However, as noted by Augenstein et al. (2017), these scores are driven by the use of well-formed news text, the presence of “easy” entities (person names), and memorization due to entity overlap between train/test sets; these models perform significantly worse on complex/unseen entities. Researchers using NER on downstream tasks have noted that a significant proportion of their errors are due to NER systems failing to recognize complex entities (Luken et al., 2018; Hanselowski et al., 2018).</p>
+**Highlights of the task**
 
-<p><img src="/images/table_1.png" alt="Examples of Complex Entities" /></p>
+* Task organizers will provide entity annotated training data for 11 languages. 
+* Participants can use the data to build NER model for one or more languages.
+* Task organizers will provide test data without the annotations. The participants have to use their systems to correctly detect the entities and submit the predictions to Codalab page.
+* Task organizers will rank the submissions based on their performance on each language, separately.
+* Participants are encouraged to aim for a bigger challenge to build NER systems for multiple languages. It can be one model per language or a single model for multiple languages.
+
+**Data Examples**
+
+Here are some examples from all the 11 languages.\
+The entities are highlighted with the entity type.
+
+* <span style="color:#274277"><b>Bangla:</b></span> ![.](/images/b/BN.png)
+* <span style="color:#274277"><b>Chinese:</b></span>![.](/images/b/ZH.png)
+* <span style="color:#274277"><b>English:</b></span>![.](/images/b/EN.png)
+* <span style="color:#274277"><b>Hindi:</b></span>![.](/images/b/HI.png)
+* <span style="color:#274277"><b>Korean:</b></span>![.](/images/b/KO.png)
+* <span style="color:#274277"><b>German:</b></span> ![.](/images/b/DE.png)
+* <span style="color:#274277"><b>Russian:</b></span>![.](/images/b/RU.png)
+* <span style="color:#274277"><b>Turkish:</b></span>![.](/images/b/TR.png)
+* <span style="color:#274277"><b>Farsi:</b></span>![.](/images/b/FA.png)
+* <span style="color:#274277"><b>Dutch:</b></span>![.](/images/b/NL.png)
+* <span style="color:#274277"><b>Spanish:</b></span> ![.](/images/b/ES.png)
+
+
+
+## Motivation
+
+Processing complex and ambiguous Named Entities (NEs) is a challenging NLP task in practical and open-domain settings, but has not received sufficient attention from the research community.
+{: style="text-align: justify"}
+
+Complex NEs, like the titles of creative works (movie/book/song/software names) are not simple nouns and are harder to recognize (Ashwini and Choi, 2014). They can take the form of any linguistic constituent, like an imperative clause (“Dial M for Murder”), and do not look like traditional NEs (Person names, locations, organizations). This syntactic ambiguity makes it challenging to recognize them based on their context. Such titles can also be semantically ambiguous, e.g., “On the Beach” can be a preposition or refer to a movie. Finally, such entities usually grow at a faster rate than traditional categories, and emerging entities pose yet another challenge. Table 1 lists more details about these challenges, and how they can be evaluated.
+{: style="text-align: justify"}
+
+Neural models (e.g., Transformers) have produced high scores on benchmark datasets like CoNLL03/OntoNotes (Devlin et al., 2019). However, as noted by Augenstein et al. (2017), these scores are driven by the use of well-formed news text, the presence of “easy” entities (person names), and memorization due to entity overlap between train/test sets; these models perform significantly worse on complex/unseen entities. Researchers using NER on downstream tasks have noted that a significant proportion of their errors are due to NER systems failing to recognize complex entities (Luken et al., 2018; Hanselowski et al., 2018).
+{: style="text-align: justify"}
+
+
+
+-->
 
 <h2 id="references">References</h2>
 <ul>
   <li>Sandeep Ashwini and Jinho D. Choi. 2014. <a href="https://arxiv.org/pdf/1408.0782.pdf">Targetable named entity recognition in social media</a>. <em>CoRR, abs/1408.0782</em>.</li>
-  <li>Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. <a href="https://aclanthology.org/N19-1423.pdf">BERT: pre-training of deep bidirectional transformers for language understanding</a>. <em>In NAACL-HLT (1). Association for Computational Linguistics</em>.</li>
-  <li>Isabelle Augenstein, Leon Derczynski, and Kalina Bontcheva. 2017. <a href="https://arxiv.org/pdf/1701.02877.pdf">Generalisation in named entity recognition: A quantitative analysis</a>. <em>Computer Speech &amp; Language, 44:61–83</em>.</li>
-  <li>Jackson Luken, Nanjiang Jiang, and Marie-Catherine de Marneffe. 2018. <a href="https://aclanthology.org/W18-5526.pdf">QED: A fact verification system for the FEVER shared task</a>. <em>In Proceedings of the First Workshop on Fact Extraction and VERification (FEVER), pages 156–160, Brussels, Belgium. Association for Computational Linguistics</em>.</li>
-  <li>Andreas Hanselowski, Hao Zhang, Zile Li, Daniil Sorokin, Benjamin Schiller, Claudia Schulz, and Iryna Gurevych. 2018. <a href="https://aclanthology.org/W18-5516.pdf">UKP-athene: Multi-sentence textual entailment for claim verification</a>. <em>In Proceedings of the First Workshop on Fact Extraction and VERification (FEVER), pages 103–108, Brussels, Belgium. Association for Computational Linguistics</em>.</li>
+  <li>Shervin Malmasi, Anjie Fang, Besnik Fetahu, Sudipta Kar, Oleg Rokhlenko. 2022. <a href="https://aclanthology.org/2022.semeval-1.196.pdf">SemEval-2022 Task 11: Multilingual Complex Named Entity Recognition (MultiCoNER)</a>.</li>
 </ul>
+
+<!--
+* Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. [BERT: pre-training of deep bidirectional transformers for language understanding](https://aclanthology.org/N19-1423.pdf). _In NAACL-HLT (1). Association for Computational Linguistics_.
+* Isabelle Augenstein, Leon Derczynski, and Kalina Bontcheva. 2017. [Generalisation in named entity recognition: A quantitative analysis](https://arxiv.org/pdf/1701.02877.pdf). _Computer Speech & Language, 44:61–83_.
+* Jackson Luken, Nanjiang Jiang, and Marie-Catherine de Marneffe. 2018. [QED: A fact verification system for the FEVER shared task](https://aclanthology.org/W18-5526.pdf). _In Proceedings of the First Workshop on Fact Extraction and VERification (FEVER), pages 156–160, Brussels, Belgium. Association for Computational Linguistics_.
+* Andreas Hanselowski, Hao Zhang, Zile Li, Daniil Sorokin, Benjamin Schiller, Claudia Schulz, and Iryna Gurevych. 2018. [UKP-athene: Multi-sentence textual entailment for claim verification](https://aclanthology.org/W18-5516.pdf). _In Proceedings of the First Workshop on Fact Extraction and VERification (FEVER), pages 103–108, Brussels, Belgium. Association for Computational Linguistics_.
+-->
 
 <h3 id="communication">Communication</h3>
 <ul>
