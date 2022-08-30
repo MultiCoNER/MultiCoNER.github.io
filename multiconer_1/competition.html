@@ -6,9 +6,9 @@
   <title>SemEval 2022 Task 11: MultiCoNER </br><b>Multi</b>lingual <b>Co</b>mplex <b>N</b>amed <b>E</b>ntity <b>R</b>ecognition</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
-  <link rel="stylesheet" href="multiconer_1/css/normalize.css">
+  <link rel="stylesheet" href="/css/normalize.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="multiconer_1/css/cayman_mconer1.css">
+  <link rel="stylesheet" href="/css/cayman_mconer1.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     
@@ -21,7 +21,7 @@
 
 		ga('create', 'UA-204298917-1', 'auto');
 		ga('send', 'pageview', {
-		  'page': 'multiconer_1/competition',
+		  'page': '/competition',
 		  'title': 'Competition'
 		});
 	</script>
@@ -34,14 +34,14 @@
     <section class="page-header">
   <h1 class="project-name">SemEval 2022 Task 11: MultiCoNER </br><b>Multi</b>lingual <b>Co</b>mplex <b>N</b>amed <b>E</b>ntity <b>R</b>ecognition</h1>
   <h2 class="project-tagline"></h2>
-  <a href="multiconer_1/" class="btn">Welcome</a>  
-  <a href="multiconer_1/competition" class="btn">Competition</a>
-    <a href="multiconer_1/dataset" class="btn">Dataset</a>
-    <a href="multiconer_1/baseline" class="btn">Baseline</a>
-  <a href="multiconer_1/organizers" class="btn">Organizers</a>
-    <a href="multiconer_1/faq" class="btn">FAQs</a>
-    <a href="multiconer_1/results" class="btn">Results</a>
-    <a href="multiconer_1/paper" class="btn">Paper Instructions</a>
+  <a href="/" class="btn">Welcome</a>  
+  <a href="/competition" class="btn">Competition</a>
+    <a href="/dataset" class="btn">Dataset</a>
+    <a href="/baseline" class="btn">Baseline</a>
+  <a href="/organizers" class="btn">Organizers</a>
+    <a href="/faq" class="btn">FAQs</a>
+    <a href="/results" class="btn">Results</a>
+    <a href="/paper" class="btn">Paper Instructions</a>
 </section>
 
     
@@ -199,7 +199,7 @@
 
 <p>We will follow the <a href="https://universaldependencies.org/docs/format.html">CoNLL</a> format for the datasets. Here is an example data sample from the trial data.</p>
 
-<p><img src="/multiconer_1/images/trial_data_sample.png" alt="." /></p>
+<p><img src="/images/trial_data_sample.png" alt="." /></p>
 
 <p>In a data file, samples are separated by blank lines. Each data instance is tokenized and each line contains a single token with the associated label in the last (4th) column. Second and third columns (<code class="language-plaintext highlighter-rouge">_</code>) are ignored. Entities are labeled using the <a href="https://natural-language-understanding.fandom.com/wiki/Named_entity_recognition#BIO">BIO</a> scheme. That means, a token tagged as <code class="language-plaintext highlighter-rouge">O</code> is not part of an entity, <code class="language-plaintext highlighter-rouge">B-X</code> means the token is the first token of an <code class="language-plaintext highlighter-rouge">X</code> entity, <code class="language-plaintext highlighter-rouge">I-X</code> means the token is in the boundary (but not the first token) of an <code class="language-plaintext highlighter-rouge">X</code> type entity having multiple tokens. In the given example, the input text is:</p>
 
@@ -208,20 +208,20 @@
 </blockquote>
 
 <p>The following image shows the entities as annotated.
-<img src="/multiconer_1/images/trial_sample_viz.png" alt="." /></p>
+<img src="/images/trial_sample_viz.png" alt="." /></p>
 
 <p>Here are some examples from the other languages.</p>
 <ul>
-  <li><span style="color:#274277"><b>Bangla:</b></span> <img src="/multiconer_1/images/b/BN.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Chinese:</b></span><img src="/multiconer_1/images/b/ZH.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Hindi:</b></span><img src="/multiconer_1/images/b/HI.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Korean:</b></span><img src="/multiconer_1/images/b/KO.png" alt="." /></li>
-  <li><span style="color:#274277"><b>German:</b></span> <img src="/multiconer_1/images/b/DE.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Russian:</b></span><img src="/multiconer_1/images/b/RU.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Turkish:</b></span><img src="/multiconer_1/images/b/TR.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Farsi:</b></span><img src="/multiconer_1/images/b/FA.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Dutch:</b></span><img src="/multiconer_1/images/b/NL.png" alt="." /></li>
-  <li><span style="color:#274277"><b>Spanish:</b></span> <img src="/multiconer_1/images/b/ES.png" alt="." /></li>
+  <li><span style="color:#274277"><b>Bangla:</b></span> <img src="/images/b/BN.png" alt="." /></li>
+  <li><span style="color:#274277"><b>Chinese:</b></span><img src="/images/b/ZH.png" alt="." /></li>
+  <li><span style="color:#274277"><b>Hindi:</b></span><img src="/images/b/HI.png" alt="." /></li>
+  <li><span style="color:#274277"><b>Korean:</b></span><img src="/images/b/KO.png" alt="." /></li>
+  <li><span style="color:#274277"><b>German:</b></span> <img src="/images/b/DE.png" alt="." /></li>
+  <li><span style="color:#274277"><b>Russian:</b></span><img src="/images/b/RU.png" alt="." /></li>
+  <li><span style="color:#274277"><b>Turkish:</b></span><img src="/images/b/TR.png" alt="." /></li>
+  <li><span style="color:#274277"><b>Farsi:</b></span><img src="/images/b/FA.png" alt="." /></li>
+  <li><span style="color:#274277"><b>Dutch:</b></span><img src="/images/b/NL.png" alt="." /></li>
+  <li><span style="color:#274277"><b>Spanish:</b></span> <img src="/images/b/ES.png" alt="." /></li>
 </ul>
 
 <!--## Official Competition Metric for the Task-->
