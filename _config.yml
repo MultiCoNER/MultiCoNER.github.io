@@ -20,7 +20,7 @@ theme: jekyll-theme-cayman
 # Site Settings
 locale                   : "en"
 baseurl                  : ""
-title                    : "SemEval 2022 Task 11: MultiCoNER </br><b>Multi</b>lingual <b>Co</b>mplex <b>N</b>amed <b>E</b>ntity <b>R</b>ecognition"
+title                    : "SemEval 2023 Task 2: MultiCoNER II</br><b>Multi</b>lingual <b>Co</b>mplex <b>N</b>amed <b>E</b>ntity <b>R</b>ecognition"
 title_separator          : "-"
 name                     : "Multilingual Complex Named Entity Recognition"
 description              : "Multilingual Complex Named Entity Recognition" 

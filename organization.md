@@ -13,17 +13,21 @@ Amazon
 {: style="margin: 0" }
 Amazon
 
+<!--
 <h4> <a href="https://anjiefang.github.io/" target="_blank">Anjie Fang</a></h4>
 {: style="margin: 0" }
 Amazon
+-->
 
 <h4> <a href="http://sudiptakar.info" target="_blank">Sudipta Kar</a></h4>
 {: style="margin: 0" }
 Amazon
 
+<!--
 <h4> <a href="https://scholar.google.com/citations?user=rgKKn-kAAAAJ" target="_blank">Oleg Rokhlenko</a></h4>
 {: style="margin: 0" }
 Amazon
+-->
 
 
 ### Communication

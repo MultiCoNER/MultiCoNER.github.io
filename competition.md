@@ -5,15 +5,15 @@ permalink: /competition
 order : 1
 ---
 
-<mark>The competition is over. The <a href="/dataset" target="_blank">dataset</a> is publicly available. You can check out the post-evaluation phase <a href="https://competitions.codalab.org/competitions/36425" target="_blank">here</a>.</mark>
+<!--<mark>The competition is over. The <a href="/dataset" target="_blank">dataset</a> is publicly available. You can check out the post-evaluation phase <a href="https://competitions.codalab.org/competitions/36425" target="_blank">here</a>.</mark>-->
 
 ## 1. How to Participate
-* The organizers have defined a task (i.e., NER) and released the training data on September 3rd. The task is divided across several languages as subtasks. The participants can work on as many as languages they want to.
+* The organizers have defined a task (i.e., NER) and released the training data on September 1st, 2022. The task is divided across several languages as subtasks. The participants can work on as many as languages they want to.
 * Participants can form a team with multiple people or single person team is okay.
 * The participants can access the training data after filling the form in the <a href="/dataset" target="_blank">Dataset</a> page. 
 * The participants can experiment with the training data to develop models. Usage of any external data or resource is allowed and highly encouraged. This process can run till the evaluation period.
 * __Evaluation period__: On January 24th, the organizers will release the test set containing instances without the labels. The participants will use their developed models to predict the labels for the instances and they have to create a submission file that follows exactly the same format of the training data. These prediction files should be submitted to Codalab submission portal (will be announced later). These predictions will be compared against the ground truth labels of the test data and the teams will be ranked on a leaderboard according to the performance score.
-* Each team is encouraged to write a system description paper describing their submission system, analysis of their results, interesting insights and submit before around February 23rd, 2022. Paper submission procedure will be announced later. After a review period, each team has to update their submitted paper based on the review feedback and submit the camera ready version. Accepted papers will be published as part of the proceedings of <a href="https://semeval.github.io" target="_blank">SemEval 2022 Workshop</a>.
+* Each team is encouraged to write a system description paper describing their submission system, analysis of their results, interesting insights and submit before around February 23rd, 2023. Paper submission procedure will be announced later. After a review period, each team has to update their submitted paper based on the review feedback and submit the camera ready version. Accepted papers will be published as part of the proceedings of <a href="https://semeval.github.io" target="_blank">SemEval 2023 Workshop</a>.
 * To connect with the organizers or other participants about any questions or discussions, participants can join the <a href="https://join.slack.com/t/multiconer/shared_invite/zt-vi3g97cx-MpqTvS07XX22S78nRC2s0Q" target="_blank">Slack</a> and Google group.
 
 
@@ -51,6 +51,7 @@ Here are some examples from the other languages.
 
 <!--## Official Competition Metric for the Task-->
 
+<!--
 
 ## 3. Label Space
 In this task, we focus on the following six entity types:
@@ -131,6 +132,7 @@ Follow the below instructions to submit your prediction files for a track. Codal
     * For example, when you participate in the English track, you will need to generate a prediction file for en_dev.conll (or en_test.conll in the testing phase) and name it as en.pred.conll.
     * The language_code values for  **Track 12 Multilingual** and **Track 13 code mixed** are **multi** and **mix**, respectively. That means, you will need to name the prediction file as `multi.pred.conll` or `mix.pred.conll`.
 * Compress the `<language_code>.pred.conll` file to a zip file by using zip `my_submission.zip <language_code>.pred.conll` (or your favorite zip utility), and the submit the zip file to the right track on Codalab.
+-->
 
 
 
