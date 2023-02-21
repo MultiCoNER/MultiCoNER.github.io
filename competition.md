@@ -12,7 +12,7 @@ order : 1
 * Participants can form a team with multiple people or single person team is okay.
 * The participants can access the training data after filling the form in the <a href="/dataset" target="_blank">Dataset</a> page. 
 * The participants can experiment with the training data to develop models. Usage of any external data or resource is allowed and highly encouraged. This process can run till the evaluation period.
-* __Evaluation period__: On January 24th, the organizers will release the test set containing instances without the labels. The participants will use their developed models to predict the labels for the instances and they have to create a submission file that follows exactly the same format of the training data. These prediction files should be submitted to Codalab submission portal (will be announced later). These predictions will be compared against the ground truth labels of the test data and the teams will be ranked on a leaderboard according to the performance score.
+* __Evaluation period__: On January 24th, the organizers released the test set containing instances without the labels. The participants will use their developed models to predict the labels for the instances and they have to create a submission file that follows exactly the same format of the training data. These prediction files should be submitted to <a href="https://codalab.lisn.upsaclay.fr/competitions/9979" target="_blank">Codalab submission portal</a>. These predictions will be compared against the ground truth labels of the test data and the teams will be ranked on a leaderboard according to the performance score.
 * Each team is encouraged to write a system description paper describing their submission system, analysis of their results, interesting insights and submit before around February 23rd, 2023. Paper submission procedure will be announced later. After a review period, each team has to update their submitted paper based on the review feedback and submit the camera ready version. Accepted papers will be published as part of the proceedings of <a href="https://semeval.github.io" target="_blank">SemEval 2023 Workshop</a>.
 * To connect with the organizers or other participants about any questions or discussions, participants can join the <a href="https://join.slack.com/t/multiconer/shared_invite/zt-vi3g97cx-MpqTvS07XX22S78nRC2s0Q" target="_blank">Slack</a> and Google group.
 
@@ -51,31 +51,21 @@ Here are some examples from the other languages.
 
 <!--## Official Competition Metric for the Task-->
 
-<!--
-
-## 3. Label Space
-In this task, we focus on the following six entity types:
-1. __PER__ : Person
-2. __LOC__ : Location
-3. __GRP__ : Group
-4. __CORP__ : Corporation
-5. __PROD__ : Product
-6. __CW__: Creative Work
 
 
-## 4. Evaluation 
-In this shared task, we provide train/dev/test data for 11 languages. Additionally, we provide dev and test sets for <a href="https://en.wikipedia.org/wiki/Code-mixing" target="_blank">code-mixed language</a> (Find relevant resources in Section 6). As a summary, we provide 11 training files and 12 dev/test files. This codalab competition is in practice phase, where you are allowed to submit prediction file for dev sets. The evaluation framework is divided in three broad tracks. 
-1. **Multi-lingual (Track 1)**: In this track, the participants have to train a single multi-lingual NER model using training data for all the languages. This model should be used to generate prediction files for each of the 11 languages’ evaluation (dev/test) set and a code-mixed evaluation set. That means the model should be able to handle monolingual data from any of the languages and code-mixed cases as well.\\
+## 3. Evaluation 
+In this shared task, we provide train/dev/test data for 12 languages. This <a href="https://codalab.lisn.upsaclay.fr/competitions/9885" target="_blank">codalab competition</a> is in practice phase, where you are allowed to submit prediction file for dev sets. The evaluation framework is divided in two broad tracks. 
+1. **Multi-lingual**: In this track, the participants have to train a single multi-lingual NER model using training data for all the languages. This model should be used to generate prediction files for each of the 12 languages’ evaluation (dev/test) set. That means the model should be able to handle monolingual data from any of the languages.\\
 <span style="color:red">Predictions from any **mono-lingual** model is not allowed in this track. Therefore, please do not submit predictions from mono-lingual models in this track.</span>.
 
-2. **Mono-lingual (Tack 2-12)**: In this track, the participants have to train a model that works for only one language. For each language, there will be one dev/test set that contains examples for that particular language. Participants have to train a mono-lingual model for the language of their interest and use that to create prediction file for the evaluation set of that language.\\
+2. **Mono-lingual**: In this track, the participants have to train a model that works for only one language. For each language, there will be one dev/test set that contains examples for that particular language. Participants have to train a mono-lingual model for the language of their interest and use that to create prediction file for the evaluation set of that language.\\
 <span style="color:red">Predictions from any **multi-lingual** model is not allowed in this track.</span>
 
-3. **Code-mixed (Tack 13)**: This test data contains have code-mixed samples. These samples will include tokens from any of the 11 mentioned languages in the shared task. This is an additional test set apart from the 11 mono-lingual test sets.
 
-## 5. Submission Instructions
+
+## 4. Submission Instructions
 The evaluation script is based on [conlleval.pl](https://github.com/chakki-works/seqeval/blob/master/tests/conlleval.pl). 
-### 5.1. Format of prediction file
+### 4.1. Format of prediction file
 The prediction file should follow [CoNLL](https://universaldependencies.org/format.html) format but only contain tags. That means, each line contains only the predicted tags of the tokens and sentences are separated by a blank line. Make sure your tags in your prediction file are exactly aligned with the provide dev/test sets.  For example, 
 * Given `en_dev.conll` or `en_test.conll`
     * 
@@ -103,8 +93,7 @@ The prediction file should follow [CoNLL](https://universaldependencies.org/form
         
 * You will need generate the prediction file `en.pred.conll` in the follow format
     * 
-        ```
-        #(You can either delete sentence id or keep it)
+        ```        
         O
         O
         O
@@ -125,19 +114,19 @@ The prediction file should follow [CoNLL](https://universaldependencies.org/form
         ...
         ```
         
-### 5.2. Prepare submission files
+### 4.2. Prepare submission files
 Follow the below instructions to submit your prediction files for a track. Codalab requires all submissions in zip format
 
 * Use your trained model to generate a prediction file for a specific tack and name it in this format: `<language_code>.pred.conll`. 
     * For example, when you participate in the English track, you will need to generate a prediction file for en_dev.conll (or en_test.conll in the testing phase) and name it as en.pred.conll.
-    * The language_code values for  **Track 12 Multilingual** and **Track 13 code mixed** are **multi** and **mix**, respectively. That means, you will need to name the prediction file as `multi.pred.conll` or `mix.pred.conll`.
+    * The language_code values for **Multilingual** track is **multi**. That means, you will need to name the prediction file as `multi.pred.conll`.
 * Compress the `<language_code>.pred.conll` file to a zip file by using zip `my_submission.zip <language_code>.pred.conll` (or your favorite zip utility), and the submit the zip file to the right track on Codalab.
--->
 
 
 
 
-## 6. Some Resources for the Beginners in NLP
+
+## Some Resources for the Beginners in NLP
 * <a href="https://en.wikipedia.org/wiki/Named-entity_recognition" target="_blank">Wikipedia article on Named Entity Recognition</a>
 * <a href="https://www.youtube.com/watch?v=MY9fs1Plh_o" target="_blank">Lecture from Prof. Chris Manning on the Evaluation of Named Entity Recognition</a>
 * <a href="https://www.geeksforgeeks.org/python-named-entity-recognition-ner-using-spacy" target="_blank">Named Entity Recognition (NER) using spaCy in Python</a>

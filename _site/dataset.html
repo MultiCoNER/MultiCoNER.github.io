@@ -36,16 +36,12 @@
   <h2 class="project-tagline"></h2>
   <a href="/" class="btn">Welcome</a>  
   <a href="/competition" class="btn">Competition</a>
-<!--
     <a href="/dataset" class="btn">Dataset</a>
     <a href="/baseline" class="btn">Baseline</a>
--->
   <a href="/organizers" class="btn">Organizers</a>
-<!--
     <a href="/faq" class="btn">FAQs</a>
     <a href="/results" class="btn">Results</a>
     <a href="/paper" class="btn">Paper Instructions</a>
--->
     <a href="/multiconer_1/" class="btn">MultiCoNER I</a>  
 <!--    <a href="https://aclanthology.org/2022.semeval-1.196.pdf" class="btn">MultiCoNER I</a>  -->
     
@@ -68,25 +64,21 @@
     <section class="main-content">
       <div id="side-table-wrapper" style="float:right; width:310px; font-size: small">
           
-<!--          <h4 id="side-table-header">Recent Updates</h4><br>-->
-<!--
+          <h4 id="side-table-header">Recent Updates</h4><br>
           <div style="background-color: beige">
           <ul>
--->
-<!--
-              <li><b>Feb 8, 2022</b> Please check out <a href="/paper" target="_blank">this page</a> for information on paper submission.</li>
-              <li><b>Feb 5, 2022</b> <a href="/results" target="_blank">Rankings</a> are out.</li>
+
+              <li><b>Feb 7, 2023</b> Please check out <a href="/paper" target="_blank">this page</a> for information on paper submission.</li>
+              <li><b>Feb 7, 2023</b> <a href="/results" target="_blank">Rankings</a> are out.</li>
+<!--              
               <li><b>Jan 25, 2022</b> Test phase duration is increased by 2 days. New end date <b>Jan 30 23:59 UTC</b>.</li>
               <li><b>Jan 04, 2022</b> <a href="/faq" target="_blank">FAQs</a> about test phase are answered.</li> 
-              <li><b>Oct 28, 2021</b> Submission site on <a href="https://competitions.codalab.org/competitions/36044" target="_blank">Codalab</a> is open now. Register now!</li> 
-              <li><b>Oct 25, 2021</b> Updated information on <a href="/competition#:~:text=4.-,Evaluation,-In%20this%20shared" target="_blank">participation and preparing submissions.</a></li> 
-              <li><b>Sep 10, 2021</b> A <a href="/baseline" target="_blank">Baseline system</a> with dev set results is available.</li> 
-           <li>Join us in <a href="https://join.slack.com/t/multiconer/shared_invite/zt-vi3g97cx-MpqTvS07XX22S78nRC2s0Q" target="_blank">Slack</a>.</li>
-              <li><b>Sep 03, 2021</b> <a href="/dataset">Training data</a> is available.</li>
-           <li><b>Aug 23, 2021</b> <a href="/competition">Competition</a> page has some trial data.</li>
 -->
-<!--          </ul>-->
-<!--              </div>-->
+              <li><b>Jan 25, 2023</b> Evaluation phase is extended by 24 hours. This phase will end on February 1st 11:59 pm AOE. </li> 
+              <li><b>Jan 25, 2023</b> Evaluation phase site with test data is available in  <a href="https://codalab.lisn.upsaclay.fr/competitions/10025" target="_blank">Codalab</a>. </li> 
+              <li><b>Jan 18, 2023</b> Practice phase site on <a href="https://codalab.lisn.upsaclay.fr/competitions/9885" target="_blank">Codalab</a> is open now. </li> 
+          </ul>
+              </div>
           
         <h4 id="side-table-header">Important Dates</h4>
         <table id="important-dates" class="table table-condensed">
@@ -101,9 +93,9 @@
             </tr>
             <tr><td>Training Data Ready</td>
               <td>
+                 <strike> <font color="grey">
                 
                 
-                 <font color="red"> 
                 Sep 30 (Fri), 2022
               </td>
             </tr>
@@ -119,27 +111,27 @@
 -->
             <tr><td>Evaluation Start</td>
               <td>
+                 <strike> <font color="grey">
                 
                 
-                
-                Jan 10 (Tue), 2023
+                Jan 25 (Wed), 2023
               </td>
             </tr>
             <tr><td>Evaluation End</td>
               <td>
+                 <strike> <font color="grey">
                 
                 
-                
-                Jan 31 (Tue), 2023
+                Feb 1 (Wed), 2023
               </td>
             </tr>
 <!--
             <tr><td>Results Posted</td>
               <td>
+                 <strike> <font color="grey">
                 
                 
-                
-                Jan 31 (Tue), 2023
+                Feb 5 (Sun), 2023
               </td>
             </tr>
 -->
@@ -147,8 +139,8 @@
               <td>
                 
                 
-                
-                Feb 1 (Wed), 2023
+                 <font color="red"> 
+                Feb 28 (Tue), 2023
               </td>
             </tr>
 <!--
@@ -166,7 +158,7 @@
                 
                 
                 
-                Mar 1 (Wed), 2023
+                Mar 31 (Fri), 2023
               </td>
             </tr>
             
@@ -175,13 +167,12 @@
                 
                 
                 
-                Apr 1 (Sat), 2023
+                Apr 21 (Fri), 2023
                 
               </td>
             </tr>
             <tr><td>Workshop</td>
-                <td>TBD</td>
-<!--              <td>14-15 July 2022 co-located with <a href="https://2022.naacl.org/" target="_blank">NAACL</a></td>-->
+              <td>13-14 July 2023 co-located with <a href="https://2023.aclweb.org/" target="_blank">ACL</a></td>
             </tr>
 
             <tr>
@@ -196,6 +187,43 @@
       <!-- ===================================== -->
       <p>The dataset is publicly available <a href="https://registry.opendata.aws/multiconer" target="_blank">here</a>.</p>
 
+<p>You can download the data using the following command:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>aws s3 cp --no-sign-request s3://multiconer/multiconer2023/ multiconer2023/ --recursive
+</code></pre></div></div>
+
+<h2 id="tagset">Tagset</h2>
+<p>The tagset of MultiCoNER is a fine-grained tagset.</p>
+
+<p>The fine to coarse level mapping of the tags are as follows:</p>
+
+<ul>
+  <li><strong>Location (LOC)</strong> : Facility, OtherLOC, HumanSettlement, Station</li>
+  <li><strong>Creative Work (CW)</strong> : VisualWork, MusicalWork, WrittenWork, ArtWork, Software</li>
+  <li><strong>Group (GRP)</strong> : MusicalGRP, PublicCORP, PrivateCORP, AerospaceManufacturer, SportsGRP, CarManufacturer, ORG</li>
+  <li><strong>Person (PER)</strong> : Scientist, Artist, Athlete, Politician, Cleric, SportsManager, OtherPER</li>
+  <li><strong>Product (PROD)</strong> : Clothing, Vehicle, Food, Drink, OtherPROD</li>
+  <li><strong>Medical (MED)</strong> : Medication/Vaccine, MedicalProcedure, AnatomicalStructure, Symptom, Disease</li>
+</ul>
+
+<p>The following figure shows the fine-grained taxonomy of the dataset.
+<img src="/images/multiconer2_taxonomy_plot.png" alt="Taxonomy" /></p>
+
+<p>Here are some examples from the dataset.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* Bangla: [লিটল মিক্স | MusicalGrp] এ যোগদানের আগে তিনি [পিৎজা হাট | ORG] এ ওয়েট্রেস হিসাবে কাজ করেছিলেন।
+* Chinese: 它的纤维穿过 [锁骨 | AnatomicalStructure] 并沿颈部侧面倾斜向上和内侧.
+* English: [wes anderson | Artist]'s film [the grand budapest hotel | VisualWork] opened the festival .
+* Farsi:     است] ناگویا |HumanSettlement] مرکزاین استان شهر
+* French: l [amiral de coligny | Politician] réussit à s y glisser .
+* German: in [frühgeborenes | Disease] führt dies zu [irds | Symptom] .
+* Hindi: १७९६ में उन्हें [शाही स्वीडिश विज्ञान अकादमी | Facility] का सदस्य चुना गया।
+* Italian: è conservato nel [rijksmuseum | Facility] di [amsterdam | HumanSettlement] .
+* Portuguese: também é utilizado para se fazer [licor | Drink] e [vinhos | Drink].
+* Spanish: fue superado por el [aon center | Facility] de [los ángeles | HumanSettlement] .
+* Swedish: [tom hamilton | Artist] amerikansk musiker basist i [aerosmith | MusicalGRP] .
+* Ukrainian: назва альбому походить з роману « [кінець дитинства | WrittenWork] » англійського письменника [артура кларка | Artist] .
+</code></pre></div></div>
+
 <h2 id="data-statistics">Data Statistics</h2>
 <table style="width:60%">
   <tr>
@@ -208,102 +236,96 @@
 
   <tr>
     <td>BN-Bangla</td>    
-    <td>15,300</td>
-    <td>800</td>
-    <td> 133,119 </td>
+    <td>9,708</td>
+    <td>507</td>
+    <td>19,859</td>
   </tr>
   
   <tr>
     <td>DE-German</td>
-    <td>15,300</td>
-    <td>800</td>
-    <td> 217,824 </td>
+    <td>9,785</td>
+    <td>512</td>
+    <td>20,145</td>
   </tr>
   
   <tr>
     <td>EN-English</td>
-    <td>15,300</td>
-    <td>800</td>
-    <td> 217,818 </td>
+    <td>16,778</td>
+    <td>871</td>
+    <td>249,980</td>
   </tr>
     
   <tr>
     <td>ES-Spanish</td>
-    <td>15,300</td>
-    <td>800</td>
-    <td> 217,887 </td>
+    <td>16,453</td>
+    <td>854</td>
+    <td>246,900</td>
   </tr>
   
   <tr>
     <td>FA-Farsi</td>
-    <td>15,300</td>
-    <td>800</td>
-    <td> 165,702 </td>
+    <td>16,321</td>
+    <td>855</td>
+    <td>219,168</td>
+  </tr>
+  
+  <tr>
+    <td>FR-French</td>
+    <td>16,548</td>
+    <td>857</td>
+    <td>249,786</td>
   </tr>
   
   <tr>
     <td>HI-Hindi</td>
-    <td>15,300</td>
-    <td>800</td>
-    <td> 141,565 </td>
+    <td>9,632</td>
+    <td>514</td>
+    <td>18,399</td>
   </tr>
   
   
   <tr>
-    <td>KO-Korean</td>
-    <td>15,300</td>
-    <td>800</td>
-    <td> 178,249 </td>
+    <td>IT-Italian</td>
+    <td>16,579</td>
+    <td>858</td>
+    <td>247,881</td>
   </tr>
   
   <tr>
-    <td>NL-Dutch</td>
-    <td>15,300</td>
-    <td>800</td>
-    <td> 217,337 </td>
+    <td>PT-Portuguese</td>
+    <td>16,469</td>
+    <td>854</td>
+    <td>229,490</td>
   </tr>
   
   <tr>
-    <td>RU-Russian</td>
-    <td>15,300</td>
-    <td>800</td>
-    <td> 217,501 </td>
+    <td>SV-Swedish</td>
+    <td>16,363</td>
+    <td>856</td>
+    <td>231,190</td>
   </tr>
   
   <tr>
-    <td>TR-Turkish</td>
-    <td>15,300</td>
-    <td>800</td>
-    <td> 136,935 </td>
+    <td>UK-Ukrainian</td>
+    <td>16,429</td>
+    <td>851</td>
+    <td>238,296</td>
   </tr>
   
   <tr>
     <td>ZH-Chinese</td>
-    <td>15,300</td>
-    <td>800</td>
-    <td> 151,661 </td>
+    <td>9,759</td>
+    <td>506</td>
+    <td>20,265</td>
   </tr>
   
   <tr>
     <td>MULTI-Multilingual</td>
-    <td>168,300</td>
-    <td>8,800</td>
-    <td> 471,911 </td>
+    <td>170,824</td>
+    <td>8,895</td>
+    <td>358,668</td>
   </tr>
   
-  <tr>
-    <td>MIX-Code mixed</td>
-    <td>1,500</td>
-    <td>500</td>
-    <td>100,000</td>
-  </tr>
-  
-  <tr>
-    <td><b>Total</b></td>
-    <td>338,100</td>
-    <td>18,100</td>
-    <td>2,567,509</td>
-  </tr>
 
 </table>
 
@@ -311,9 +333,14 @@
 ## To get the training data, please check the Codalab sites.
 You have to register in the Codalab site, then check the Participate tab.
 
+<!--
 <a href="https://competitions.codalab.org/competitions/36044" target="_blank">Training and Dev</a>
 
-<a href="https://competitions.codalab.org/competitions/36425" target="_blank">Test</a>
+<!--<a href="https://competitions.codalab.org/competitions/36425" target="_blank">Test</a>-->
+
+<!--
+## Training Data Download
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeCknzrVSoYQX4YHypU8ZNvRw2WzE6KHDSIRfnikgC9kVXniQ/viewform?embedded=true" width="640" height="2000" frameborder="0" marginheight="0" marginwidth="0">To get the training data, please fill out the form below</iframe>
 -->
 
 <!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfAYk1uhMdE5ft54IDKy_wxiMKzBdweNVg1JxDZqqpt-KNZjA/viewform?embedded=true" width="640" height="2000" frameborder="0" marginheight="0" marginwidth="0">To get the training data, please fill out the form below</iframe>-->

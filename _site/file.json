@@ -1,0 +1,79 @@
+{
+    "name": "",
+    "id": "0",
+    "children": [
+        {
+            "name": "Location",
+            "id": "1",
+            "children": [
+                { "name": "Facility", "id": "1_1" },
+                { "name": "OtherLOC", "id": "1_2" },
+                { "name": "HumanSettlement", "id": "1_3" },
+                { "name": "Station", "id": "1_4" }
+            ]
+        },
+        {
+            "name": "Creative Works",
+            "id": "2",
+            "children": [
+                { "name": "VisualWork", "id": "2_1" },
+                { "name": "MusicalWork", "id": "2_2" },
+                { "name": "WrittenWork", "id": "2_3" },
+                { "name": "ArtWork", "id": "2_4" },
+                { "name": "Software", "id": "2_5" },
+                { "name": "OtherCW", "id": "2_6" }
+            ]
+        },
+        {
+            "name":"Group",
+            "id": "3",
+            "children": [
+                { "name": "MusicalGRP", "id": "3_1" },
+                { "name": "PublicCORP", "id": "3_2" },
+                { "name": "PrivateCORP", "id": "3_3" },
+                { "name": "OtherCORP", "id": "3_4" },
+                { "name": "AerospaceManufacturer", "id": "3_5" },
+                { "name": "SportsGRP", "id": "3_6" },
+                { "name": "CarManufacturer", "id": "3_7" },
+                { "name": "TechCORP", "id": "3_8" },
+                { "name": "ORG", "id": "3_9" }
+            ]
+        },
+        {
+            "name": "Person",
+            "id": "4",
+            "children": [
+                { "name": "Scientist", "id": "4_1" },
+                { "name": "Artist", "id": "4_2" },
+                { "name": "Athlete", "id": "4_3" },
+                { "name": "Politician", "id": "4_4" },
+                { "name": "Cleric", "id": "4_5" },
+                { "name": "SportsManager", "id": "4_6" },
+                { "name": "OtherPER", "id": "4_7" }
+            ]
+        },
+        {
+            "name": "Product",
+            "id": "5",
+            "children": [
+                { "name": "Clothing", "id": "5_1" },
+                { "name": "Vehicle", "id": "5_2" },
+                { "name": "Food", "id": "5_3" },
+                { "name": "Drink", "id": "5_4" },
+                { "name": "OtherPROD", "id": "5_5" }
+            ]
+        },
+        {
+            "name": "Medical",
+            "id": "6",
+            "children": [
+                { "name": "Medication/Vaccine", "id": "6_1" },
+                { "name": "MedicalProcedure", "id": "6_2" },
+                { "name": "AnatomicalStructure", "id": "6_3" },
+                { "name": "Symptom", "id": "6_4" },
+                { "name": "Disease", "id": "6_5" }
+            ]
+        }
+        
+    ]
+}

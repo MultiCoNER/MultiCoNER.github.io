@@ -6,7 +6,7 @@ title: faq
 ## FAQs
 
 ### 1. When the test data will be available?
-The evaluation phase will start on **24th January 00:00 UTC** and end on **28th January 23:59 UTC**. Test data will be made available in **Codalab** prior the start period. As we will follow the UTC timezone, please convert the time to your local time beforehand to avoid any confusion.
+The evaluation phase will start on **January, 2023**. Test data will be made available in **Codalab** prior the start period. 
 
 
 ### 2. How can I participate in the test phase?
@@ -18,7 +18,7 @@ The test data for each language will have at least 150K+ instances and for some 
 
 
 ### 4. How the final ranking will be determined? Will it consider per-domain F1?
-Per-domain F1 will be shown in output JSON file, but final ranking will be determined based on overall macro-F1.
+Per-domain F1 will be shown in output JSON file, but final ranking will be determined based on overall macro-F1. However, the evaluation result will always display detailed result for each coarse and fine-grained classes.
 
 
 ### 5. Will I be able to see my results and the leaderboard during the test phase?
@@ -32,6 +32,7 @@ Yes, you can use any model for the task.
 ### 7. What are the domains of the test data?
 The test data domains are similar as the development data. Looking at the development set will give an idea on the domains.
 
+<!--
 
 ### 8. How much of the test entities overlap with the training entities?
 This table provides the percentage of test data entities that are also found in the training sets.
@@ -178,6 +179,7 @@ This plot shows the total number of unique entities in the train and test sets.
 ### 11. Since the test set is large, is there a way to efficiently output token tags for models using subword tokenizers?
 We have implemented a method for doing this step. More details available <a href="https://github.com/amzn/multiconer-baseline/blob/main/README.md#:~:text=For%20this%20functionality">here</a>.
 
+-->
 
 
 

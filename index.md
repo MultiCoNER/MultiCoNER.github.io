@@ -25,6 +25,9 @@ MultiCoNER II features complex NER in these languages:
 <li> German </li>
 </ol>
 
+The following figure shows the fine-grained taxonomy of the dataset.
+![Taxonomy](images/multiconer2_taxonomy_plot.png)
+
 
 ### MultiCoNER I: SemEval 2022 Task 11
 * <a href="https://aclanthology.org/2022.semeval-1.196.pdf" target="_blank">Task overview paper </a>
